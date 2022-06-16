@@ -8,7 +8,7 @@ const homeController = {
     },
     show: (req, res) => {
         const {id} = req.params;
-        const produto = Produtos.findById(id);
+        const produto = ProdutoModel.findById(id);
         if(!produto) {
             return res.send(`Produto não encontrado`);
         }
