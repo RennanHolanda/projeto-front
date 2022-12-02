@@ -23,7 +23,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - JavaScript
-- MySql2
 - EJS
 - Git e Github
 
