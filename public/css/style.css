@@ -1,0 +1,387 @@
+
+header ul {
+    margin-left: 20%;
+}
+
+.carousel-inner img {
+    width: max(250px, 100vw);
+}
+
+/* login */
+.form-signin {
+    max-width: 430px;
+    padding: 15px;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+#cards {
+    display: flex;
+    
+}
+
+#cards div {
+    margin: 5px;
+}
+
+#cards div img {
+    width: 100%;
+    height: 50%;
+}
+
+#investimento  div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#investimento {
+  background-color: rgba(64, 80, 80, 0.093);
+  border-radius: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.681), 3px 6px 20px rgba(0, 0, 0, 0.681)
+}
+
+
+.card-body a {
+    margin-top: 100px;
+    margin-left: 10px;
+  
+}
+
+.nav-rensposive {
+    display: none;
+    cursor: pointer;
+}
+
+.nav-rensposive div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+    flex-direction: column;
+}
+
+.navbar-toggler {
+  color: white!important;
+  background-color: white!important;
+}
+
+#secao1 {
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 80px;
+    width: 100%;
+  }
+
+#buttonx button{
+    background-color: red;
+    
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 30px 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .main-title::after {
+    content: "";
+    border-bottom: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+  }
+
+  /* Serviços */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .service-box i,
+  .service-box h4 {
+    transition: .5s;
+  }
+  
+  .service-box i {
+    font-size: 36px;
+    margin-bottom: 20PX;
+    color: #444;
+  }
+  
+  .service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service-box:hover>i,
+  .service-box:hover h4 {
+    color: #d3ae71;
+  }
+
+  /*Detahle */
+
+  .secao1 {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 10px;
+  }
+
+  .secao1 #texto1 p {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: green;
+  }
+
+  .secao1 #texto1 {
+    display: flex;
+  }
+
+  .secao1 #texto2 a{
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+  }
+
+  .secao2 {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+  }
+
+  .secao2 #texto3 {
+    width: 550px;
+  }
+
+  .secao2 #texto4 {
+    margin-left: 50px;
+  }
+
+  .secao2 #texto5 {
+    margin-left: 50px;
+  }
+
+  .secao3 {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 10px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.681), 3px 6px 20px rgba(0, 0, 0, 0.681);
+    border-radius: 10px;
+  }
+
+  .secao3 h3, p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .secao3 #button {
+    width: 50%;
+  }
+
+
+  /* Sobre a empresa */
+
+#about-area, #contato {
+    background-color: #0e0d0d00;
+    border-radius: 10px;
+  }
+  
+  .main-title {
+    color: #444;
+    margin: 0 0 30px 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+  }
+  
+  .abaut-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  #abaut-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #abaut-list li {
+    line-height: 30px;
+  }
+  
+  #abaut-list i {
+    color: #fbe4ab;
+    margin-right: 15px;
+  }
+
+  /*Cadastrar */
+
+  #mapa {
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  /* Footer */
+
+#contact-area {
+    text-align: center;
+    background-color: #d3ad7125;
+  }
+  
+  .contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #d3ae71;
+  }
+  
+  .contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-box p {
+    font-size: 16px;
+  }
+  
+  .contact-title {
+    font-weight: bold;
+    color: #d3ae71;
+  }
+  
+  #msg-box p {
+    font-size: 22px;
+  }
+  
+  #contact-form input[type="text"],
+  #contact-form input [type="email"],
+  #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+  }
+  
+  #contact-form .main-bn {
+    width: 120px;
+    height: 50px;
+  }
+  
+  #contact-form .main-btn:hover {
+    color: #d3ae71;
+  }
+  
+  /* Copy */
+  
+  #copy-area {
+    background-color: rgba(64, 80, 80, 0.418);
+  }
+  
+  #copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  #copy-area .container p {
+    margin-bottom: 0;
+  }
+  
+  #copy-area .container a {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  #copy-area .container a:hover {
+    text-decoration: none;
+    color: #d3ae71;
+  }
+
+@media (max-width: 1576px) {
+  #card-invest img {
+    display: none;
+  }
+}
+
+@media (max-width: 1310px) {
+  #card-invest p {
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 1040px) {
+    header ul {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 989px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translate(100%);
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .nav-rensposive {
+        display: block;
+    }
+
+    .nav-list.active {
+        transform: translate(0);
+    }
+
+
+}

@@ -3,16 +3,24 @@ const ProdutoModel = require('../models/produtoModel');
 const homeController = {
 
     index: (req, res) => {
-        const produtos = ProdutoModel.findAll();
-       return res.render('home/landingpage.ejs', { produtos: produtos });
+       res.render('home/index')
     },
-    show: (req, res) => {
-        const {id} = req.params;
-        const produto = ProdutoModel.findById(id);
-        if(!produto) {
-            return res.send(`Produto não encontrado`);
-        }
-        return res.render('./produtos/detalhes', {produto});
+
+    login: (req, res) => {
+        res.render('home/login')
+    },
+
+    register: (req, res) => {
+        res.render('home/cadastro')
+    },
+
+    showdetalhe: (req, res) => {
+        res.render('home/detalhe')
+    },
+
+    invest: (req, res) => {
+        res.render('home/investir')
     }
 }
+
 module.exports = homeController;

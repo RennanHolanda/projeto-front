@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investir</title>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+    <%- include('../partials/header') %>
+
+        <main>
+          <br><br>
+          <section class="secao3"> 
+            <div class="container">
+            <h2>Investimento</h2>
+            <p>Pronto para essa experiência, <samp>Usuário</samp></p>
+            <h3>valor a ser invesido em reias</h3>
+            <p>o valor a ser investido de ser múltiplo de <span>R$ 1.0</span></p>
+            <div class="input-group mb-3" id="button">
+                <span class="input-group-text">R$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-text">,00</span>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Declaro que concordo com o <span>documento</span> de ciência de risco do investimento
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button id="btn" type="submit" class="btn btn-primary">Investir</button>
+              </div>
+            </div>
+          </section>
+          <br><br>
+        </main>
+        
+        <%- include('../partials/footer') %>
+        <script src="https://cdn.jsdelivr.net/combine/npm/sweetalert2@11.4.37,npm/sweetalert2@11.6.14"></script>
+        <script src="/js/script.js"></script>
+</body>
+</html>

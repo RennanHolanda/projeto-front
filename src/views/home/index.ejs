@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest</title>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  </head>
+
+
+<body>
+    <%- include('../partials/header') %>
+    <main>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                    class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="/img/slide5.jpg" alt="" height="100%" width="100%">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Example headline.</h1>
+                            <p>Some representative placeholder content for the first slide of the carousel.</p>
+                            <p><a class="btn btn-warning" href="#">Saiba mais</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                  <img src="/img/slide2.jpg" alt="" height="100%" width="100%">
+    
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                            <p><a class="btn btn-warning" href="#">Saiba mais</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="/img/slide4.jpg" alt="" height="100%" width="100%">
+    
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>One more for good measure.</h1>
+                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <p><a class="btn btn-warning" href="#">Saiba mais</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="col-md-12">
+          <h3 class="main-title">Onde Investir</h3>
+        </div> 
+          <div id="investimento">
+            <div class="container">
+              <div id="card-invest">
+                <img src="/img/predio.jpg" width="60%" height="350vh" class="flex-shrink-0 me-3" alt="prédio">
+                <div>
+                  <p>Aliquet lectus proin nibh nisl. Sit amet mattis vulputate enim nulla aliquet porttitor. Convallis convallis tellus id interdum. Adipiscing elit duis tristique sollicitudin. Fringilla urna porttitor rhoncus dolor. Auctor urna nunc id cursus. Eu non diam phasellus vestibulum lorem sed risus ultricies. Aliquam nulla facilisi cras fermentum odio eu. Lectus mauris ultrices eros in cursus turpis massa.</p>
+                </div>
+              </div>
+              <div class="row row-cols-2">
+                <div class="col">
+                  <div class="card" style="width: 40rem;">
+                    <img src="/img/predio2.jpg" class="card-img-top" alt="prédio">
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5> -->
+                      <p class="card-text">STincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Eget nunc lobortis mattis aliquam. A cras semper auctor neque vitae tempus.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">valor da cota:<b> R$ 10.000,00</b></li>
+                      <li class="list-group-item">Participação: <b> 0.0192% pro conta</b></li>
+                      <li class="list-group-item">Pagamento:<b> Ao final</b>
+                        <br><br>
+                        <a type="button" class="btn btn-sm btn-outline-secondary" href="/home/detalhe">Detalhes</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+        <div class="container" >
+          <div class="row">
+            <div id="services-area">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12">
+                          <h3 class="main-title">Nosso serviços</h3>
+                      </div>
+                      <div class="col-md-4 service-box">
+                          <i class="fas fa-mobile-alt"></i>
+                          <h4>Lorem ipsum</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                      <div class="col-md-4 service-box">
+                          <i class="fas fa-shopping-cart"></i>
+                          <h4>Lorem ipsum</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                      <div class="col-md-4 service-box">
+                          <i class="fas fa-paint-brush"></i>
+                          <h4>Lorem ipsum</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                      <div class="col-md-4 service-box">
+                          <i class="fab fa-google"></i>
+                          <h4>Lorem ipsum</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                          </p>
+                      </div>
+                      <div class="col-md-4 service-box">
+                          <i class="fas fa-hands-helping"></i>
+                          <h4>Lorem ipsum</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                      <div class="col-md-4 service-box">
+                          <i class="fas fa-server"></i>
+                          <h4>Lorem ipsum</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div id="abaut-area">
+          <div class="container">
+              <div class="row" id="contato">
+                  <div class="col-12">
+                      <h3 class="main-title">Os mellhores investimentos</h3>
+                  </div>
+                  <div class="col-md-6">
+                      <img class="img-fluid" src="/img/foto2.jpg" alt="Mercado investimento">
+                  </div>
+                  <div class="col-md-6">
+                      <h3>Lorem ipsum dolor</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptates quae
+                          deleniti a officia aut quas excepturi.</p>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque laboriosam
+                          sapiente accusamus soluta delectus, quibusdam modi placeat tempora atque excepturi!</p>
+
+                      <ul id="abaut-list">
+                          <li><i class="fas fa-check"></i>Lorem, ipsum dolor sit amet consectetur adipisicing</li>
+                          <li><i class="fas fa-check"></i>Lorem, ipsum dolor sit amet consectetur adipisicing</li>
+                          <li><i class="fas fa-check"></i>Lorem, ipsum dolor sit amet consectetur adipisicing</li>
+                          <li><i class="fas fa-check"></i>Lorem, ipsum dolor sit amet consectetur adipisicing</li>
+                          <li><i class="fas fa-check"></i>Lorem, ipsum dolor sit amet consectetur adipisicing</li>
+                          <li><i class="fas fa-check"></i>Lorem, ipsum dolor sit amet consectetur adipisicing</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+       <br><br> 
+    </main>
+
+    <%- include('../partials/footer') %>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const myCarouselElement = document.querySelector('#myCarousel')
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+            interval: 2000,
+            wrap: true
+        })
+    </script>
+</body>
+
+</html>
